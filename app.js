@@ -2,7 +2,7 @@ const app = require('express')()
 const cors = require('cors')
 app.use(cors())
 const http = require('http').Server(app)
-const PORT = process.env.port || 2002
+const PORT = process.env.PORT || 2002
 const server = app.listen(PORT, () => {
     console.log("Server is running");
 });
