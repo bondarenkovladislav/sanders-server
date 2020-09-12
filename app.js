@@ -97,4 +97,4 @@ setInterval( () => {
     if(pack.length > 0) {
         io.emit('remoteData', pack)
     }
-}, 40)
+}, 17)
